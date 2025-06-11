@@ -3,6 +3,7 @@ defmodule Homeassistant.Client do
   The MQTT client
   """
 
+  # TODO: move to application config
   def name() do
     Homeassistant.EMQTT
   end
