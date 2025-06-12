@@ -28,6 +28,6 @@ defmodule Homeassistant.MQTT do
     :state_topic,
     :command_topic,
     :qos,
-    :encoding
+    encoding: "utf-8"
   ]
 end

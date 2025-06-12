@@ -25,6 +25,7 @@ defmodule Homeassistant.MixProject do
       {:ex_doc, "~> 0.38", only: :dev},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
       {:jason, "~> 1.4"},
+      {:property_table, "~> 0.3.1"},
       {:emqtt,
        github: "emqx/emqtt",
        ref: "d919c0d91fa109d0d74a6fe71d8f44eb05a48337",
